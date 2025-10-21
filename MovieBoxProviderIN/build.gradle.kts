@@ -1,13 +1,18 @@
 // use an integer for version numbers
 version = 4
 
+android {
+    buildFeatures {
+        buildConfig = true
+    }
+}
 
 cloudstream {
     language = "en"
     // All of these properties are optional, you can safely remove them
 
-    // description = "Lorem Ipsum"
-     authors = listOf("Hexated")
+    description = "Lorem Ipsum"
+    authors = listOf("Hexated")
 
     /**
      * Status int as the following:
@@ -18,10 +23,8 @@ cloudstream {
      * */
     status = 1 // will be 3 if unspecified
     tvTypes = listOf(
-        "TvSeries",
         "Movie",
-        "Anime",
-        "AsianDrama",
+        "TvSeries"
     )
 
     iconUrl = "https://moviebox.ph/favicon.ico"
