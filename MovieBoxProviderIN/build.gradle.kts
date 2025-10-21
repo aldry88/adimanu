@@ -27,5 +27,5 @@ cloudstream {
         "TvSeries"
     )
 
-    iconUrl = "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension/raw/refs/heads/master/MovieBoxProvider/icon.png"
+    iconUrl = "https://github.com/aldry88/adimanu/blob/master/MovieBoxProviderIN/icon.png"
 }
