@@ -1,18 +1,13 @@
 // use an integer for version numbers
-version = 2
+version = 4
 
-android {
-    buildFeatures {
-        buildConfig = true
-    }
-}
 
 cloudstream {
-    language = "ta"
+    language = "en"
     // All of these properties are optional, you can safely remove them
 
-    description = "Multi Language Movies and Series Provider (IN)"
-    authors = listOf("NivinCNC")
+    // description = "Lorem Ipsum"
+     authors = listOf("Hexated")
 
     /**
      * Status int as the following:
@@ -23,9 +18,11 @@ cloudstream {
      * */
     status = 1 // will be 3 if unspecified
     tvTypes = listOf(
+        "TvSeries",
         "Movie",
-        "TvSeries"
+        "Anime",
+        "AsianDrama",
     )
 
-    iconUrl = "https://github.com/NivinCNC/CNCVerse-Cloud-Stream-Extension/raw/refs/heads/master/MovieBoxProvider/icon.png"
+    iconUrl = "https://moviebox.ph/favicon.ico"
 }
